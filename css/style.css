@@ -6,7 +6,7 @@
     background-size: cover;
     
 }
-.item-1{
+.item-1 {
     grid-area: margin;
     height: 5%x;
 } 
@@ -51,7 +51,8 @@
   background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
   padding: 10px 0;
-  font-size: 30px}
+  font-size: 30px
+}
 
   
 .skills1 { 
