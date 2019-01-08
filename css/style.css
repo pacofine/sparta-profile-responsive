@@ -1,0 +1,104 @@
+
+.item1 { 
+    grid-area: header;
+    height: 300px;
+    background-image: url("../images/gears1.jpg");
+    background-size: cover;
+    
+}
+.item-1{
+    grid-area: margin;
+    height: 5%x;
+} 
+.item2 { 
+    grid-area: skills;
+    height: 350px; 
+}
+.item-2{
+    grid-area: margin-2;
+    height: 5%;
+}
+.item3 { 
+    grid-area: education; 
+    height: 320px;
+}
+.item4 { 
+    grid-area: experience;
+    height: 320px; 
+}
+
+.item5 { 
+    grid-area: bar;
+    height: 98%; 
+}
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'bar header header'
+    'bar margin margin'
+    'bar skills skills'
+    'bar margin-2 margin-2'
+    'bar education experience';
+  grid-gap: 10px;
+  background-color: rgb(78, 73, 72);
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 10px 0;
+  font-size: 30px}
+
+  
+.skills1 { 
+    grid-area: subheading;
+    height: 50px;
+}
+.skills2 { 
+    grid-area: list1;
+    height: 238px; 
+}
+.skills3 { 
+    grid-area: list2; 
+    height: 238px;
+}
+
+.item2  {
+    display: grid;
+    grid-template-areas:
+      'subheading subheading'
+      'list1 list2';
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.item2 > div {
+    background-color:rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 10px 0;
+    font-size: 30px
+}
+
+.list1 {
+    border-right: 1px solid black;
+}
+  
+
+    
+/*}
+   .item1 {
+    overflow: auto;
+  }
+
+  [class*="col-"] {
+    width: 100%;
+  } 
+
+  @media only screen and (min-width: 400px) {
+    .item3 {width: 50%;}
+    .item4 {width: 50%;}
+  } */
